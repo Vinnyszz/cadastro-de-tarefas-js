@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefas</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Cadastro de Tarefas</h1>
+    <hr>
+    <h2>Cadastrar Nova Tarefa</h2>
+    <br>
+    
+    <form id="taskForm">
+        <label for="task">Tarefa:</label>
+        <input type="text" id="task" name="task">
+        <br><br>
+
+        <label>Subtarefas:</label>
+        <br>
+        <button type="button" id="addSubTask">Adicionar Subtarefa</button>
+        <ul id="subTaskList"></ul>
+        <br><br>
+        
+        <button type="sumbit">Cadastrar</button>
+    </form>
+</body>
+</html>
